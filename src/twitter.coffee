@@ -1,4 +1,7 @@
-{Robot, Adapter, TextMessage, EnterMessage, LeaveMessage, Response} = require 'hubot'
+Robot = require 'hubot'
+Adapter                                              = require 'adapter'
+{TextMessage,EnterMessage,LeaveMessage,TopicMessage} = require 'message'
+
 
 HTTPS        = require 'https'
 EventEmitter = require('events').EventEmitter
